@@ -1,3 +1,3 @@
-spring:
-  application:
-    name: simple-health-check-cicd
+app:
+  name: simple-health-check-cicd
+  version: 0.1.0

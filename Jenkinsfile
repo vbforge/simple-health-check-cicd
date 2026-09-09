@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKERHUB_CREDS = credentials('dockerhub-creds')
         IMAGE_NAME = "vladbogdadocker/simple-health-check-cicd"
-        IMAGE_TAG  = "${env.BUILD_NUMBER}"
+        IMAGE_TAG  = sh(script: "./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout", returnStdout: true).trim()
     }
 
     stages {

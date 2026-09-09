@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.vbforge</groupId>
     <artifactId>simple-health-check-cicd</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.1.0</version>
     <name>simple-health-check-cicd</name>
     <description>simple-health-check-cicd</description>
 
