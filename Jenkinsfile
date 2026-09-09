@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDS = credentials('dockerhub-creds')
-        IMAGE_NAME = "vbforge/simple-health-check-cicd"
+        IMAGE_NAME = "vladbogdadocker/simple-health-check-cicd"
         IMAGE_TAG  = "${env.BUILD_NUMBER}"
     }
 
